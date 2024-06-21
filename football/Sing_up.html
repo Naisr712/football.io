@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="ss/style.css">
+    
+</head>
+<body>
+   
+    <main>
+        <section>
+                <form id="paymentForm" method="post">
+                    <h1>Sign up Form</h1>
+                    <div class="form-group">
+                        <label for="studentName">First Name:</label>
+                        <input type="text" id="studentName" name="StudentName" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="studentID">Last Name:</label>
+                        <input type="text" id="studentID" name="StudentID" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="studentID"> Contact:</label>
+                        <input type="number" id="studentID" name="StudentNumber" placeholder="User Contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="studentID"> Email:</label>
+                        <input type="email" class="email" name="StudentEmail" placeholder="User Email" required>
+                    </div>
+                        <div class="form-group">
+                            <label for="paymentMethod">Question:</label>
+                            <select id="paymentMethod" name="PaymentMethod" required>
+                                <option value="">Select question here</option>
+                                <option value="">What is your Country's name?</option>
+                                <option value="Credit Card">Which Senior High did you attended?</option>
+                                <option value="Debit Card">How old are you?</option>
+                                <option value="PayPal">What is you favorite food?</option>
+                                <option value="Bank Transfer">What is your hobby?</option>
+                            </select>
+                        </div>
+                  
+                    <div class="form-group">
+                        <label for="amount">Answer:</label>
+                        <input type="text" id="amount" name="Amount" placeholder="Answer" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Sign Up" name="submit">
+                        <input type="reset" class="reset" value="Reset ">
+                    </div>
+                      <a href="login.html">Login</a>
+                </form>
+           
+            
+        </section>
+        
+    </main>
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; Football Ticket online Purchasing Website</p>
+    </footer>
+</body>
+
+</html>

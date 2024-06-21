@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Form Registration </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">  <br>
+    <div class="large">
+        
+    </div>
+<div class="Ticket" >
+    
+    <div class="marge" >
+        <h3>FOOTBALL TICKET ONLINE PURCHASING</h3>
+        <div class="form-main">
+            <div class="form-inner">
+
+            </div>
+      <form action="">
+    <h6>*******************************</h6>
+    <h6>Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  TAMALE</h6>
+    <h6>Tel: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 0549871459</h6>
+    <h6>Email:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mahamudabdulnasir21@gmail.com</h6>
+    <h6>Manager: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABDUL NASIR</h6>
+    <h6>*******************************</h6>
+    
+    <div class="mb-1">
+        <label for="">Name:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="MyName"></span></label>
+
+    </div>
+    <div class="mb-1">
+        <label for="">Contact:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="MyContact"></span></label>
+
+    </div>
+    <div class="mb-1">
+        <label for="">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="MyEmail"></span></label>
+
+    </div>
+    <div class="mb-1">
+        <label for="">Amount:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="MyAmount"></span></label>
+
+    </div>
+    <div class="mb-1">
+        <label for="">Type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="MyType"></span></label>
+
+    </div>
+
+    <div class="mb-1">
+        <label for="">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="MyAddress"></span></label>
+
+    </div>
+    <div class="mb-1">
+        <label for="">TicketNo:&nbsp;&nbsp;&nbsp; <span id="MyTicketNo"></span></label>
+
+    </div>   
+<h6>********************************</h6><br>
+<h6>_____________________________</h6>
+
+<h6>Signature</h6>
+<h6>__________ THANK YOU _______</h6>
+
+<button class="btn btn-primary" onclick="printdoc()">Print</button>
+    </form>
+    </div>
+</div>
+
+</div>
+    </div>
+</div>
+    <script>
+        function printdoc(){
+      window.print();
+  }
+
+  document.getElementById("MyName").innerHTML = localStorage.getItem("passName");
+  document.getElementById("MyContact").innerHTML = localStorage.getItem("passContact");
+  document.getElementById("MyEmail").innerHTML = localStorage.getItem("passEmail");
+  document.getElementById("MyAmount").innerHTML = localStorage.getItem("passAmount");
+  document.getElementById("MyType").innerHTML = localStorage.getItem("passType");
+  document.getElementById("MyAddress").innerHTML = localStorage.getItem("passAddress");
+  document.getElementById("MyTicketNo").innerHTML = localStorage.getItem("passTicketNo");
+
+    </script>
+
+</body>
+</html>
