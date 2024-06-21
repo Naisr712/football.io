@@ -1,0 +1,286 @@
+p{
+    font-size: 14px;
+    margin: 0px;
+
+
+
+}
+.web-header{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+width: 100%;
+justify-content: flex-start; 
+flex-shrink: 0;
+background-color: rgb(44, 9, 9); 
+z-index: 1;
+position: fixed;
+height: 500px;
+color: whitesmoke;
+font-family: 'Times New Roman', Times, serif;
+white-space: nowrap;
+position: relative;
+border: none;
+margin-right: 40px;
+}
+
+.header-top{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 100%;
+    
+
+}
+
+.home-text{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 30px;
+    display: inline-block;
+
+
+
+}
+
+.home-text:hover{
+    border-bottom: 2px solid wheat;
+}
+
+.home-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-items:hover{
+    opacity: 1;
+
+}
+
+.project-text{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 30px;
+    display: inline-block;
+
+}
+.project-text:hover{
+    border-bottom: 2px solid wheat;
+
+}
+
+
+.project-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 10px;
+
+}
+
+.project-items:hover{
+    opacity: 1;
+
+
+
+}
+
+.program-top{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+
+
+}
+
+
+.program-text{
+    margin-top: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 30px;
+    display: inline-block;
+
+}
+.program-text:hover{
+    border-bottom: 2px solid wheat;
+
+}
+
+.program-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 10px;
+
+}
+
+.program-items:hover{
+    opacity: 1;
+
+
+
+}
+
+.get-involved-top{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 100%;
+
+
+}
+
+
+.get-involved-text{
+    margin-top: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+
+
+}
+.get-involved-text:hover{
+    border-bottom: 2px solid wheat;
+
+}
+
+.get-involved-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 15px;
+
+}
+
+.get-involved-items:hover{
+    opacity: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+
+
+.media-text{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 30px;
+    font-size: 30px;
+    display: inline-block;
+
+
+
+}
+.media-text:hover{
+    border-bottom: 2px solid wheat;
+
+}
+
+.media-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 35px;
+
+}
+.media-items:hover{
+    opacity: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.contact-text{
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 26px;
+    display: inline-block;
+
+
+
+}
+.contact-text:hover{
+    border-bottom: 2px solid wheat;
+
+}
+
+.contact-items{
+    opacity: 0;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 35px;
+}
+
+.contact-items:hover{
+    opacity: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-shrink: 0;
+    justify-content: end;
+    align-items: top;
+    margin-top: 20px;
+    margin-right: 90px;
+    width: 100%;
+
+
+}
+
+.facebook-icon{
+    width: 50px;
+    border-radius: 25px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 10px;
+
+
+
+}
+
+.facebook-icon:hover{
+    opacity: 0.5;
+}
+
+.twitter-icon{
+    width: 50px;
+    border-radius: 25px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.twitter-icon:hover{
+    opacity: 0.5;
+}
+
+.youtube-icon{
+    width: 50px;
+    border-radius: 25px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.youtube-icon:hover{
+    opacity: 0.5;
+
+}

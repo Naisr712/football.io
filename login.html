@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ss/style.css">
+</head>
+<body>
+    <br><br>
+    <div class="container-fluid">
+<div class="message">
+    <div class="marge">
+
+    
+    <h4><i>INSTRACTIONS TO THE USER</i></h4>
+    <div class="marg">
+    A. E-VOUCHER BOUGHT FROM BANK <br><br>
+    Purchase Kumasi Technical University From The Following Banks </b><br>
+        <li>Zenith Bank Branches</li>
+        <li>Consoldated Bank of Ghana Branches</li>
+        <li>Access Bank Branches</li>
+        <li>Universal Mechant Banks</li><br>
+        <h6>B. E-VOUCHER OBTAIN FROM POST OFFICES</h3> 
+        Visit any branch of Ghana Post to purchase Kumasi Technical University Voucher <br>
+       <h6> C. E-VOUCHER OBTAINED FROM MOBILE MONEY</h6>
+        1. Click on <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="submit1" onclick="OpenPopup()">BUY SERIAL/PIN USING MOBILE MONEY</button><br>
+            <label for=""> A pop up window will show for you to fill in your details</label>
+            <label for="">2. Fill in the payment platform and then send the money through <b>0549871459</b> to make payment</label><br>
+    <label for="">3. Click submit, then an SMS and/or Email containing the E-Voucher details(Serial number and Pin code) will be sent to you
+    </label>
+    <p1>For more enquaries contact us on <b><i>0549871459</i></b> or send a whatsApp message through the same number. In addition, you can also contact us through thiese 
+        Emails:
+        <li>mahamudabdulnasir21@gmail.com</li>
+        <li>mahamudabdulnasir8@gmail.com</li>
+    </p1><br>
+        </div>
+</div>
+</div>
+    
+        <main>
+            <section>
+                <h1>LOGIN FORM </h1>
+                
+                <form action="Ticket_Form.html" method="POST" enctype="multipart/form-data">
+                    <label for="first_name">User Name:</label><br>
+                    <input type="text" id="first_name" name="first_name" required><br>
+            
+                    <label for="last_name">Pin Code:</label><br>
+                    <input type="password" id="last_name" name="last_name" required><br>
+            
+                    <input type="submit" value="LOGIN" name="Submit">&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="RESET" name="reset"> <br><br>
+                    <br>
+                    <label for="">I am a new member</label>
+                    <button class="btn btn-danger"><a href="Sing_up.html">Sign up</a></button><br><br>
+                    <a href="">forget password</a> <br>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;<button class="btn btn-danger"><a href="">Click to buy pin code</a></button>
+
+                </form>
+                <br><br><br><br>
+                
+                    </section>
+                </main>
+
+    </div>
+    <div class="Payment_form" id="Popup">
+        <form action="" method="post">
+            <br><br>
+            <div class="marg">
+            <h6>ENTER YOUR DETAILS TO PROCEED</h6>
+            <div class="mb-3">
+            <input type="text" class="form-control" name="FirstName" placeholder="First Name" id="InputName" required>
+            </div>
+    <div class="mb-3">
+    <input type="text" class=" form-control"name="LastName" id="InputSecondName" placeholder="Last Name" required>
+    </div>
+            <div class="mb-3">
+            <input type="email" class="form-control" name="Email" placeholder="Email" required>
+            </div> 
+            <div class="mb-3">
+            <input type="number" class="form-control" name="Contact" placeholder="Contact" required>
+            </div>
+            <div class="mb-3">
+            <input type="text" class="form-control" name="ReferenceCode" placeholder="Reference code" required>
+            </div>
+            
+            <select name="Form_type" id="SelectOption" class="form-control">
+                <option value="">Select Payment method</option>
+                <option value="MTN Mobile Money">MTN Mobile Money</option>
+                <option value="T-Cash">T-Cash</option>
+                <option value="AirtelTigo">AirtelTigo Cash</option>
+            </select><br>
+            <button type="submit" class="btn btn-primary" name="form_submit" onclick="ClosePopup()">Get Started</button>
+        </form>
+    </div>
+        </div>
+    <script>
+        let Popup = document.getElementById("Popup");
+
+        function OpenPopup() {
+            Popup.classList.add("open-popup");
+        }
+
+        function ClosePopup() {
+            Popup.classList.remove("open-popup");
+        }
+    </script>
+
+</body>
+</html>
